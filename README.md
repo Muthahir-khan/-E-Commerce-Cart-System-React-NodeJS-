@@ -45,7 +45,7 @@ cd ShopEase
 Backend Setup (Node.js + Express)
 
 Navigate to the backend folder:
-cd backend
+cd backendStart the React app:
 
 Install dependencies:
 npm install
@@ -63,3 +63,57 @@ Frontend Setup (React.js)
 Open a new terminal and navigate to the frontend folder:
 cd frontend
 Install dependencies:
+npm install
+Start the React app:
+npm start
+Open your browser and go to:
+http://localhost:3000
+
+
+Usage
+
+Browse products on the Home page.
+
+Click "Add to Cart" to add products.
+
+Click the Cart link to view your items.
+
+Increase/decrease quantity or remove items.
+
+Go to Checkout, enter details, and submit.
+
+View the Order Confirmation page.
+
+Tech Stack
+
+Frontend: React.js, React Router, Formik, Yup
+
+Backend: Node.js, Express.js
+
+State Management: React Hooks (useState)
+
+Styling: Basic CSS
+
+API Handling: Axios, Fetch API
+
+API Endpoints
+
+Method
+
+Endpoint
+
+Description
+
+GET
+
+/api/products
+
+Fetch product list
+
+POST
+
+/api/checkout
+
+Submit order details
+
+
